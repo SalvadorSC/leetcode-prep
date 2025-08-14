@@ -8,7 +8,6 @@
 var gcdOfStrings = function (str1, str2) {
     let string1 = str1;
     let string2 = str2;
-    
 
     while (string1.length !== string2.length) {
         if (string1.length > string2.length) {
@@ -22,6 +21,4 @@ var gcdOfStrings = function (str1, str2) {
         }
     }
     return string1 === string2 ? string1 : ''
-    
-
 };
